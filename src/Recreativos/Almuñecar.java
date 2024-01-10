@@ -12,9 +12,10 @@ import java.util.InputMismatchException;
  * and open the template in the editor.
  */
 /**
- *
+ *Menu del recreativo
+ * 
  * @author Marcos Bermejo Salamanca
- * Menu del recreativo
+ * 
  */
 public class Almuñecar {
 
