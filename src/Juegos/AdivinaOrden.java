@@ -7,17 +7,19 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 /**
- *
- * @author Marcos Bermejo Salamanca
+ * @author Aarón Lozano
  */
 public class AdivinaOrden extends Juego {
-
+    
+    static int cont = 0;
+    
     /**
-     * Constructor del jugo Adivina el orden
-     * 
-     * @param Nombre del jugo
-     * @param creditosNecesarios numero de creditos que se necesitan para jugar
-     * 
+     * Comienza el juego. Se crean un Scanner y Random, se crean
+     * 2 arrays, el primero se rellena de forma aleatoria con números
+     * hasta el 1000, se copia al otro y se ordena. Se pregunta el orden
+     * que se cree que están los números, mostrándose los del array
+     * desordenado y comparándolo con el ordenado. Por cada acierto se
+     * incrementa un contador y se muestra al final.
      */
     public AdivinaOrden(String nombre, int creditosNecesarios) {
         super(nombre, creditosNecesarios);

@@ -7,7 +7,7 @@ package Juegos;
 
 /**
  *
- * @author developer
+ * @author Marcos Bermejo Salamanca
  */
 import Objetos.Juego;
 import Objetos.Tarjeta;
@@ -20,7 +20,8 @@ public class EncuentraElNumero extends Juego {
     }
 
     /**
-     * @param args the command line arguments
+     * Metodo hijo utilizado para jugar
+     * @param tarjeta con la que se va a jugar
      */
     @Override
     public int jugar(Tarjeta tarjeta) {
