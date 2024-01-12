@@ -21,9 +21,9 @@ public class Premio {
     
     /**
      * Constructor de los premios
-     * @param nombre -> Nombre del premio
-     * @param ticketsNecesarios -> Nº de tickets necesarios para canjear el premio
-     * @param recuentoStock -> Cantidad de stock del premio
+     * @param nombre: Nombre del premio
+     * @param ticketsNecesarios: Nº de tickets necesarios para canjear el premio
+     * @param recuentoStock: Cantidad de stock del premio
      */
     public Premio (String nombre, int ticketsNecesarios, int recuentoStock) {
         this.nombre = nombre;
@@ -61,8 +61,8 @@ public class Premio {
     
     /**
      * Setter de recuentoStock
-     * @param stock -> Cantidad de stock para el premio
-     * @throws NumeroNegativo -> Excepción lanzada en caso de ser inferior a 0
+     * @param stock: Cantidad de stock para el premio
+     * @throws NumeroNegativo: Excepción lanzada en caso de ser inferior a 0
      */
     public void setRecuentoStock(int stock) throws NumeroNegativo{
         if (stock <0) {

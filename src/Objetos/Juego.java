@@ -64,7 +64,7 @@ public class Juego {
     
      /**
      * Muestra la informacion de la tarjeta
-     * @param x: El numero de la tarjeta.
+     * @param tarjeta: El numero de la tarjeta.
      */
     public void lectorTarjeta(Tarjeta tarjeta){
         System.out.println(tarjeta.toString());
@@ -72,7 +72,7 @@ public class Juego {
     /**
      * Clase principal la cual van a utilizar las hijas para jugar
      * 
-     * @author Marcos Bermejo Salamanca
+     * Autor Marcos Bermejo Salamanca
      * @param tarjeta con la que se va a jugar
      * @return en número de tickets ganados en el juego
      */
@@ -92,7 +92,7 @@ public class Juego {
     /**
      * Comprueba si dispone de los creditos necesarios para jugar
      * 
-     * @author Marcos Bermejo Salamanca
+     * Autor Marcos Bermejo Salamanca
      * @param tar Tarjeta que se va acomprobar si dispone de los creditos necesarios
      * @return Boolean de si dispone de los creditos necesarios
      */
@@ -109,7 +109,7 @@ public class Juego {
     /**
      * Cobra los tickets a la hora de jugar
      * 
-     * @author Marcos Bermejo Salamanca
+     * Autor Marcos Bermejo Salamanca
      * @param tarjeta con la que se va a jugar
      * @return Un boolean si se ha podido realizar la operacion correctamente
      */
@@ -128,7 +128,7 @@ public class Juego {
     /**
      * Suma los tickets ganados
      * 
-     * @author Marcos Bermejo Salamanca
+     * Autor Marcos Bermejo Salamanca
      * @param tarjeta con la que se va a jugar
      * @param tickets que se le van a sumar
      */

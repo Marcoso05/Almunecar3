@@ -19,7 +19,7 @@ public class Piedra extends Juego {
     /**
      * Constructor del jugo de piedra papel tijera
      * 
-     * @param Nombre del jugo
+     * @param nombre del jugo
      * @param creditosNecesarios numero de creditos que se necesitan para jugar
      * 
      */
