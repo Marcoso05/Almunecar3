@@ -34,29 +34,33 @@ public class Tarjeta {
         this.numTarjeta = contador++;
     }
     
+    /**
+     * Getter de los creditos
+     * @return: Devuelve el numero de creditos. 
+     */ 
     public int getCreditos(){
         return this.creditos;
     }
     
     /**
-     * Getter de los creditos
-     * @return: Devuelve el numero de creditos. 
-     */    
+     * Getter de los tickets
+     * @return: Devuelve el numero de tickets.
+     */   
     public int getTickets(){
         return this.tickets;
     }
     
     /**
-     * Getter de los tickets
-     * @return: Devuelve el numero de tickets.
+     * Getter del numero de la tarjeta.
+     * @return: Devuelve el numero identificativo de la tarjeta.
      */
     public int getNumTarjeta(){
         return this.numTarjeta;
     }
     
     /**
-     * Getter del numero de la tarjeta.
-     * @return: Devuelve el numero identificativo de la tarjeta.
+     * Setter de los tickets
+     * @param tickets: Establece el numero de tickets.
      */
     public void setTickets(int tickets){
        
@@ -65,8 +69,8 @@ public class Tarjeta {
     }
     
     /**
-     * Setter de los tickets
-     * @param tickets: Establece el numero de tickets.
+     * Setter de los creditos
+     * @param creditos: Establece el numero de creditos
      */
     public void setCreditos(int creditos){
         this.creditos = creditos;
